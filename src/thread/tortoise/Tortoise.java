@@ -1,4 +1,7 @@
 package thread.tortoise;
 
-public class Tortoise {
+public class Tortoise extends Thread {
+    public Tortoise() {
+        super("Tortoise");
+    }
 }
